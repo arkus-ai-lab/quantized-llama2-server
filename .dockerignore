@@ -1,0 +1,17 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de registro y archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos de compilación y directorios de compilación
+*.pyo
+*.pyd
+/build/
+/dist/
