@@ -16,7 +16,7 @@ COPY ./requirements.txt /tmp/requirements.txt
 COPY ./app /app
 WORKDIR /app
 COPY ./scripts /scripts
-EXPOSE 8001
+EXPOSE 8000
 
 RUN pip install -e .
 
